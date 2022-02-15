@@ -76,18 +76,18 @@ public class ECElGamalTest {
 
     
 
-    @Test
-    public void DatasetUnpack() {
-        JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader("PhoneNumbers500.json")){
-            Object obj = jsonParser.parse(reader);
-            JSONArray PlainList = (JSONArray) obj;
-            System.out.println(PlainList);
-            PlainList.forEach( emp -> parseObject((JSONObject) emp));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-    }
+//    @Test
+//    public void DatasetUnpack() {
+//        JSONParser jsonParser = new JSONParser();
+//        try (FileReader reader = new FileReader("PhoneNumbers500.json")){
+//            Object obj = jsonParser.parse(reader);
+//            JSONArray PlainList = (JSONArray) obj;
+//            System.out.println(PlainList);
+//            PlainList.forEach( emp -> parseObject((JSONObject) emp));
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     @Test
     public void Performance() {
