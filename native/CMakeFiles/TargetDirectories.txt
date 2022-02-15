@@ -1,0 +1,5 @@
+/home/genius/ecelgamal/native/CMakeFiles/edit_cache.dir
+/home/genius/ecelgamal/native/CMakeFiles/rebuild_cache.dir
+/home/genius/ecelgamal/native/CMakeFiles/ecelgamal-jni-wrapper.dir
+/home/genius/ecelgamal/native/CMakeFiles/ecelgamal.dir
+/home/genius/ecelgamal/native/CMakeFiles/ecelgamal-lib.dir

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/genius/ecelgamal/native/crtecelgamal.c
+crtecelgamal.h
+/home/genius/ecelgamal/native/crtecelgamal.h
+
+/home/genius/ecelgamal/native/crtecelgamal.h
+ecelgamal.h
+/home/genius/ecelgamal/native/ecelgamal.h
+
+/home/genius/ecelgamal/native/ecelgamal.c
+ecelgamal.h
+/home/genius/ecelgamal/native/ecelgamal.h
+
+/home/genius/ecelgamal/native/ecelgamal.h
+openssl/ec.h
+-
+openssl/bn.h
+-
+openssl/objects.h
+-
+inttypes.h
+-
+uthash.h
+/home/genius/ecelgamal/native/uthash.h
+
+include/uthash.h
+string.h
+-
+stddef.h
+-
+stdlib.h
+-
+stdint.h
+-
+stdint.h
+-
+stdint.h
+-
+
